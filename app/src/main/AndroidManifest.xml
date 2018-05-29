@@ -11,8 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +21,16 @@
         <activity android:name=".NextActivity" />
         <activity android:name=".LinearLayoutActivity" />
         <activity android:name=".DynamicLayout" />
-        <activity android:name=".Scroll"></activity>
+        <activity android:name=".Scroll" />
+        <activity
+            android:name=".ButtonListActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".SampleListViewActivity" />
+        <activity android:name=".SimpleAdapter2Activity" />
+        <activity android:name=".FragmentPagerActivity" />
+        <activity android:name=".MyPager"></activity>
     </application>
 
 </manifest>
