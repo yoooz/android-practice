@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.simple_list_view_2).setOnClickListener(this);
         findViewById(R.id.fragment).setOnClickListener(this);
         findViewById(R.id.view_pager).setOnClickListener(this);
+        findViewById(R.id.scroll_continuous).setOnClickListener(this);
+
     }
     @Override
     public void onClick(View v) {
@@ -85,6 +87,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.view_pager:
                 intent = new Intent(this, MyPager.class);
                 startActivity(intent);
+                break;
+            case R.id.scroll_continuous:
+                intent = new Intent(this, ScrollContinuousActivity.class);
+                startActivity(intent);
+                break;
+            default:
                 break;
         }
     }

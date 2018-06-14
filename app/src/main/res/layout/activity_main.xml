@@ -83,6 +83,7 @@
                 android:layout_marginRight="30dp"
                 android:text="button list" />
 
+
             <Button
                 android:id="@+id/map"
                 android:layout_width="match_parent"
@@ -118,6 +119,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:text="view pager"/>
+
+            <Button
+                android:id="@+id/scroll_continuous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="ScrollContinuous"/>
 
 
         </LinearLayout>

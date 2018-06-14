@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <Button
+        android:id="@+id/hokkaido"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:text="北海道" />
+    
+    <Button
+        android:id="@+id/tohoku"
+        android:layout_width="45dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@id/hokkaido"
+        android:layout_below="@id/hokkaido"
+        android:text="東北"/>
+    <Button
+        android:id="@+id/kanto"
+        android:layout_width="45dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@id/tohoku"
+        android:layout_below="@id/tohoku"
+        android:text="関東"/>
+    <Button
+        android:id="@+id/koshin"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/kanto"
+        android:layout_toLeftOf="@id/kanto"
+        android:text="甲信越\n北陸"
+        android:textSize="8sp"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/koshin"
+        android:layout_toLeftOf="@id/kanto"
+        android:text="東海"
+        android:textSize="10sp"/>
+    <Button
+        android:id="@+id/kinki"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/koshin"
+        android:layout_alignTop="@id/koshin"
+        android:text="近畿"/>
+    <Button
+        android:id="@+id/chugoku"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@id/kinki"
+        android:layout_alignTop="@id/kinki"
+        android:text="中国"
+        android:textSize="10sp"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@id/kinki"
+        android:layout_below="@id/chugoku"
+        android:text="四国"
+        android:textSize="10sp"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:layout_toLeftOf="@id/chugoku"
+        android:layout_alignTop="@id/chugoku"
+        android:text="九州"/>
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="沖縄"/>
+
+
+</RelativeLayout>
