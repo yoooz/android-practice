@@ -34,7 +34,8 @@
         <activity android:name=".SimpleAdapter2Activity" />
         <activity android:name=".FragmentPagerActivity" />
         <activity android:name=".MyPager" />
-        <activity android:name=".ScrollContinuousActivity"></activity>
+        <activity android:name=".ScrollContinuousActivity" />
+        <activity android:name=".FakeHiddenMenuActivity"></activity>
     </application>
 
 </manifest>

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.fragment).setOnClickListener(this);
         findViewById(R.id.view_pager).setOnClickListener(this);
         findViewById(R.id.scroll_continuous).setOnClickListener(this);
+        findViewById(R.id.fake_hidden_menu).setOnClickListener(this);
 
     }
     @Override
@@ -90,6 +91,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.scroll_continuous:
                 intent = new Intent(this, ScrollContinuousActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.fake_hidden_menu:
+                intent = new Intent(this, FakeHiddenMenuActivity.class);
                 startActivity(intent);
                 break;
             default:
