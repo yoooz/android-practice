@@ -22,7 +22,6 @@ public class ScrollContinuousAdapter extends ArrayAdapter {
         this.list = list;
         inflater = LayoutInflater.from(context);
 
-
     }
 
     @NonNull
